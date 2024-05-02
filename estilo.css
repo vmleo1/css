@@ -1,0 +1,219 @@
+body{
+	background-image:url("../imagenes/fondo2.jpg");
+	color:#604A39;
+	font-family:"Lucida Console", "Courier New", monospace;
+	font-size: 40px;	
+}
+p{
+	text-align:justify;
+	font-size:25px;
+}
+p2{
+	text-align:center;
+	font-size:25px;
+}
+hr{
+	/*solid dotted dashed double*/
+	border:4px dashed #AD7C57;
+	/*border-radius es para el terminado de las orillas de la linea. El radios se expresa en px*/
+	border-radius: 5px;
+}
+table,tr,td{
+	/*aqui me quede*/
+	border: 3px double;
+	background-color:#D0A58E;
+	text-align:center;
+	font-size:16px;
+	
+}
+ul{
+	list-style-type:square;
+	list-style-position:inside;
+}
+ol{
+	list-style-type:upper-roman;
+	list-style-position:inside;
+
+}
+@font-face{
+	font-family:mifuente;
+	src:url("../fonts/AdobeGothicStd-Bold.ttf")
+}
+
+.pie{
+	font-family:mifuente;
+	text-align:center;
+	font-size:15px;
+	font-weight:bold;
+	
+}
+.encabezado{
+	font-family:mifuente; 
+	text-align:center;
+	font-size:25px;
+	font-weight:bold;
+	
+}
+.img-marquee{
+	height:400px;
+	width:600px;
+}
+.img-servicios{
+	height:175px;
+	width:125px;
+	border-radius: 10%;
+}
+.img-controller{
+	height:50px;
+	width:50px;
+	border-radius: 10%;
+	}
+*{
+	margin:0px;
+}
+div#top{
+	padding:40px;
+	width:100%;
+	height:50px;
+	/*background-color:#BB947F;*/
+	background-image:linear-gradient(#B7917C,#E4AA85);
+	/*background-image:radial-gradient(#B7917C,#D0A58E);*/
+	/*background-image:url("../imagenes/fondo.jpg");*/
+	
+	
+}
+div#piediv{
+	padding:15px;
+	width:100%;
+	height:70px;
+	/*background-color:#BB947F;*/
+	background-image:linear-gradient(#B7917C,#E4AA85);
+}
+div#principal{
+   width:100%;
+   background-image:url("../imagenes/fondo2.jpg");
+}
+.caja{
+	height:400px;
+	width:300px;
+	background:#B7917C;
+	border: 1px solid ##B7917C;
+	margin:5px;
+	color:black;
+	text-align:center;
+	display: inline-block;
+}
+.caja:hover{
+	box-shadow: 0 0 10px pink;
+	transform:scale(1.3);
+}
+.caja-texto{
+	padding-top:5px;
+	padding-bottom:5px;
+	font-size:20px;
+	color: #604A39;
+	font-weight:bold;
+}
+.caja-adicional{
+	padding-top:5px;
+	font-size:15px;
+	
+}
+.carrousel{
+	width:600px;
+	margin:auto;
+	/*Hace que el padding y el borde pasen a formar parte del calculo de la caja y no de la suma*/
+	box-sizing:border-box;
+	
+}
+.conteCarrousel{
+	width:100%;
+	height:400px;
+	/*Hace que el navegaro oculte todos los contenidos que salen del div*/
+	overflow:hidden;
+	box-sizing:border-box;
+}
+.itemCarrousel{
+	/*La nueva posicion del elemento relacion de un elemento con su posicion normal*/
+	position:relative;
+	width:100%;
+	height:100%;
+	box-sizing:border-box;
+}
+.itemCarrouselTarjeta{
+	width:100%;
+	height:100%;
+	box-sizing:border-box
+}
+.itemCarrouselArrows{
+	/*hace que un elemento se coloque respecto a su contenedor posicionado mas cercano*/
+	position:absolute;
+	top:0;
+	bottom:0;
+	left:0;
+	right:0;
+	height:100%;
+	width:100%;
+	display:flex;
+	align-items:center;
+	justify-content:space-between;
+	padding:20px;
+	box-sizing:border-box;
+	
+}
+.itemCarrouselArrows>i:hover{
+	cursor:pointer;
+}
+.conteCarrouselController{
+	width:100%;
+	display:flex;
+	justify-content: space-evenly;
+}
+.conteCarrouselController>a{
+	text-decoration:none;
+	font-size:32px;
+	color:grey;
+}
+.itemCarrouselArrows>a>i{
+	color:white;
+}
+.img.controller{
+	height:50px;
+	width:50px;	
+}
+.caja3{
+	width:700px;
+	background:#B7917C;
+	border: 5px solid #E4AA85;
+	margin:5px;
+	color:black;
+	text-align:center;
+	display: inline-block;
+	}
+.caja2{
+	width:300px;
+	background:#B7917C;
+	border: 2px solid #B7917C;
+	margin:5px;
+	color:black;
+	text-align:center;
+	display: inline-block;
+}
+.caja2-nombre{
+	padding-top:5px;
+	padding-bottom:5px;
+	font-size:20px;
+	color: #604A39;
+	font-weight:bold;
+}
+
+.caja2-descripcion{
+	padding-top:5px;
+	padding-bottom:5px;
+	font-size:20px;
+	color: #604A39;
+	font-weight:bold;
+}
+a:link{
+	text-decoration:none;
+}
